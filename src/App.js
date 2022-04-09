@@ -2,6 +2,10 @@ import "./App.css";
 import Navbar from "./components/nav";
 
 function App() {
-	return <Navbar></Navbar>;
+	return (
+		<div>
+			<Navbar></Navbar>
+		</div>
+	);
 }
 export default App;
