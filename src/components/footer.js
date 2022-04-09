@@ -1,10 +1,11 @@
 import React from 'react'
 
 function Footer() {
-  return
-  ;<div className="footer">
-    <h3>© Vinyl o drink - Olle Wikström & David Forsyth Rosin</h3>
-  </div>
+  return (
+    <div className="footer">
+      Vinyl o Drink - Olle Wikström & David Forsyth Rosin
+    </div>
+  )
 }
 
 export default Footer
