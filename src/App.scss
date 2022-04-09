@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  padding: 2rem;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      flex: 1;
+    }
+  }
+}
+
